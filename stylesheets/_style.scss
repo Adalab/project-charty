@@ -1,0 +1,208 @@
+
+
+/* DESI */
+
+/* ALTHEA */
+
+.video-container{
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+}
+
+video {
+  background-size: cover;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.txt_video {
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: 100;
+  background: rgba(60,219,192,0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  top: $unit * 2;
+  right: 0;
+  font-size: 20px;
+}
+
+#front-girls{
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+  }
+
+/* SONIA */
+
+.adalab {
+  background-color: #fafafa;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.logo{
+  padding-top: $unit;
+}
+
+.adalab-text {
+  padding-left: $unit * 5;
+  padding-right: $unit * 5;
+  color: #555555;
+  font-size: 20px;
+  margin-top: $unit;
+}
+
+@media (max-width:800px){
+  .adalab-text {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+/* ABOUT */
+
+.title{
+  text-align: center;
+  background-color: $primary-color;
+  margin: 0;
+  color: white;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.container-about{
+  margin: 20px 50px 30px;
+}
+
+.about-left{
+  display: flex;
+  align-items: flex-start;
+  height: 322px;
+}
+
+.text-right{
+  margin-left: 200px;
+}
+
+.about-right{
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  align-items: flex-start;
+}
+
+.text-left{
+  margin-right: 200px;
+}
+
+.name{
+  margin: 0;
+}
+
+@media (max-width:700px){
+  .about-left{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-left{
+    margin-right: 0px;
+  }
+  .about-right{
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .text-right{
+    margin-left: 0px;
+  }
+}
+
+/* ELI */
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    font-family: Rubrik, sans-serif;
+    color: rgb(85, 85, 85);
+    margin: 20px auto 20px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: $primary-color;
+    color: white;
+}
+
+@media screen and (max-width: $medium-screen-size){
+
+ table, thead, tr, th, tbody, td{
+   width:20%;
+ }
+
+}
+
+/* PUY */
+
+.footer{
+  width: 100%;
+  background-color: $primary-color;
+  color: white;
+  font-family: $default-font-family;
+  position: relative;
+  padding: 15px;
+}
+
+.info{
+  display: flex;
+  margin-bottom: 5px;
+  margin-left: 40px;
+}
+
+.contact{
+  width: 250px;
+}
+
+.place{
+  display: flex;
+  font-size: 12px;
+}
+
+.place img{
+  width: 15px;
+  margin-right: 5px;
+}
+
+.place p{
+  margin: 0;
+  padding: 0;
+}
+
+.icon{
+  width: 30px;
+  margin-right: 8px;
+  transition: all 0.5s;
+}
+
+.icon:hover{
+  opacity: 0.8;
+}
+
+.copyright{
+  text-align: center;
+  margin:0;
+}
