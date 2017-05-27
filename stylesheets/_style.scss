@@ -34,50 +34,91 @@
 
 
 
-.container-about{
-  margin: 20px 50px 30px;
+.titleFund{
+  display:flex;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  background-color: #E84542;
+  color:#D2D5D8;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.photoFund{
+width: 450px;
+height: 320px;
 }
 
-.about-left{
+
+.fundBoxLeft{
   display: flex;
-  align-items: flex-start;
-  height: 322px;
+  flex-direction: row;
+  text-align:center;
+  height: 320px;
+  background-color: #152844;
 }
 
-.text-right{
-  margin-left: 200px;
+.textLeft{
+  font-family: 'Raleway', sans-serif;
+  color:white;
+  display :flex;
+  flex-direction: column;
+  align-items: center;
+  height:320px;
+  padding: 50px;
 }
 
-.about-right{
+.fundBoxRight{
+  height: 320px;
   display: flex;
   flex-direction: row-reverse;
-  text-align: right;
-  align-items: flex-start;
+  text-align: center;
+  background-color: #152844;
 }
 
-.text-left{
-  margin-right: 200px;
+.textRight{
+  font-family: 'Raleway', sans-serif;
+color:white;
+display :flex;
+flex-direction: column;
+align-items: center;
+height:320px;
+padding: 50px;
+
+}
+
+.btnInfo{
+  width: 150px;
+  height: 30px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #E84542;
+  color: #D2D5D8;
+  border:1px solid;
+  border-color: #D2D5D8;
+  border-radius: 5px;
 }
 
 .name{
   margin: 0;
+  font-family: 'Playfair Display', serif;
 }
 
 @media (max-width:700px){
-  .about-left{
+  .fundBoxLeft{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
   }
-  .text-left{
+  .textLeft{
     margin-right: 0px;
   }
-  .about-right{
+  .fundBoxRight{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
   }
-  .text-right{
+  .textRight{
     margin-left: 0px;
   }
 }

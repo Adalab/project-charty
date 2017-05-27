@@ -69,39 +69,11 @@ a {
 .nav-list:hover {
   color: #152844; }
 
-/* DESI */
-/* ALTHEA */
-.video-container {
+.hero_container {
   width: 100%;
   height: 550px;
-  overflow: hidden; }
+  background-color: grey; }
 
-video {
-  background-size: cover;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%); }
-
-.txt_video {
-  position: absolute;
-  font-family: sans-serif;
-  font-weight: 100;
-  background: rgba(60, 219, 192, 0.3);
-  color: white;
-  padding: 2rem;
-  width: 33%;
-  top: 40px;
-  right: 0;
-  font-size: 20px; }
-
-#front-girls {
-  text-transform: uppercase;
-  margin-top: 0;
-  letter-spacing: .3rem; }
-
-/* SONIA */
 .adalab {
   background-color: #fafafa;
   text-align: center;
@@ -121,31 +93,54 @@ video {
   .adalab-text {
     padding-left: 100px;
     padding-right: 100px; } }
-/* ABOUT */
-.title {
-  text-align: center;
-  background-color: #152844;
-  margin: 0;
-  color: white;
-  padding: 10px 0;
-  text-transform: uppercase; }
-
-.container-about {
-  margin: 20px 50px 30px; }
-
-.about-left {
+.titleFund {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  height: 322px; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Playfair Display', serif;
+  background-color: #E84542;
+  color: #D2D5D8;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
-.text-right {
-  margin-left: 200px; }
+.photoFund {
+  width: 450px;
+  height: 320px; }
 
-.about-right {
+.fundBoxLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  height: 320px;
+  background-color: #152844; }
+
+.textLeft {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 320px;
+  padding: 50px; }
+
+.fundBoxRight {
+  height: 320px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -153,19 +148,41 @@ video {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
-  text-align: right;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start; }
+  text-align: center;
+  background-color: #152844; }
 
-.text-left {
-  margin-right: 200px; }
+.textRight {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 320px;
+  padding: 50px; }
+
+.btnInfo {
+  width: 150px;
+  height: 30px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #E84542;
+  color: #D2D5D8;
+  border: 1px solid;
+  border-color: #D2D5D8;
+  border-radius: 5px; }
 
 .name {
-  margin: 0; }
+  margin: 0;
+  font-family: 'Playfair Display', serif; }
 
 @media (max-width: 700px) {
-  .about-left {
+  .fundBoxLeft {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -173,10 +190,10 @@ video {
             justify-content: center;
     text-align: center; }
 
-  .text-left {
+  .textLeft {
     margin-right: 0px; }
 
-  .about-right {
+  .fundBoxRight {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -184,31 +201,8 @@ video {
             justify-content: center;
     text-align: center; }
 
-  .text-right {
+  .textRight {
     margin-left: 0px; } }
-/* ELI */
-table {
-  border-collapse: collapse;
-  width: 50%;
-  font-family: Rubrik, sans-serif;
-  color: #555555;
-  margin: 20px auto 20px; }
-
-tr:nth-child(even) {
-  background-color: #f2f2f2; }
-
-th, td {
-  text-align: left;
-  padding: 8px; }
-
-th {
-  background-color: #152844;
-  color: white; }
-
-@media screen and (max-width: 600px) {
-  table, thead, tr, th, tbody, td {
-    width: 20%; } }
-/* PUY */
 .footer {
   width: 100%;
   background-color: #152844;
