@@ -18,7 +18,15 @@
   flex-direction: row;
   text-align: center;
   height: 320px;
-  background-color: #152844; }
+  background-color: rgba(12,22,36,1);
+  background-color: -moz-linear-gradient(top, rgba(12,22,36,1) 0%, rgba(12,22,36,1) 1%, rgba(21,40,68,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(12,22,36,1)), color-stop(1%, rgba(12,22,36,1)), color-stop(100%, rgba(21,40,68,1)));
+ background: -webkit-linear-gradient(top, rgba(12,22,36,1) 0%, rgba(12,22,36,1) 1%, rgba(21,40,68,1) 100%);
+ background: -o-linear-gradient(top, rgba(12,22,36,1) 0%, rgba(12,22,36,1) 1%, rgba(21,40,68,1) 100%);
+ background: -ms-linear-gradient(top, rgba(12,22,36,1) 0%, rgba(12,22,36,1) 1%, rgba(21,40,68,1) 100%);
+ background: linear-gradient(to bottom, rgba(12,22,36,1) 0%, rgba(12,22,36,1) 1%, rgba(21,40,68,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c1624', endColorstr='#152844', GradientType=0 );
+ }
 
 .textLeft {
   font-family: 'Raleway', sans-serif;
@@ -34,7 +42,15 @@
   display: flex;
   flex-direction: row-reverse;
   text-align: center;
-  background-color: #152844; }
+  background: rgba(12,22,36,1);
+  background: -moz-linear-gradient(top, rgba(12,22,36,1) 0%, rgba(12,22,36,1) 1%, rgba(21,40,68,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(12,22,36,1)), color-stop(1%, rgba(12,22,36,1)), color-stop(100%, rgba(21,40,68,1)));
+background: -webkit-linear-gradient(top, rgba(12,22,36,1) 0%, rgba(12,22,36,1) 1%, rgba(21,40,68,1) 100%);
+background: -o-linear-gradient(top, rgba(12,22,36,1) 0%, rgba(12,22,36,1) 1%, rgba(21,40,68,1) 100%);
+background: -ms-linear-gradient(top, rgba(12,22,36,1) 0%, rgba(12,22,36,1) 1%, rgba(21,40,68,1) 100%);
+background: linear-gradient(to bottom, rgba(12,22,36,1) 0%, rgba(12,22,36,1) 1%, rgba(21,40,68,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c1624', endColorstr='#152844', GradientType=0 );
+}
 
 .textRight {
   font-family: 'Raleway', sans-serif;
