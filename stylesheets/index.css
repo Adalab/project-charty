@@ -29,6 +29,12 @@ a {
 .icons-about {
   width: 30px; }
 
+.btn-menu-mobile {
+  text-decoration: none;
+  background-color: #fafafa;
+  border: none;
+  display: none; }
+
 #main-header {
   background: #fafafa;
   height: 80px;
@@ -43,13 +49,17 @@ a {
   -moz-box-shadow: 6px 21px 24px -28px rgba(0, 0, 0, 0.75);
   box-shadow: 6px 21px 24px -28px rgba(0, 0, 0, 0.75); }
 
-.nav {
+.menu-web {
   display: flex;
   list-style: none; }
+
+.menu-mobile {
+  display: none; }
 
 .nav-list {
   color: black;
   text-decoration: none;
+  list-style: none;
   margin-left: 15px; }
 
 .nav-list:hover {
@@ -130,10 +140,6 @@ a {
   font-size: 20px;
   margin-top: 20px; }
 
-@media (max-width: 800px) {
-  .adalab-text {
-    padding-left: 100px;
-    padding-right: 100px; } }
 /* susana*/
 .titleFund {
   display: flex;
@@ -197,6 +203,62 @@ a {
   font-family: 'Playfair Display', serif; }
 
 @media (max-width: 700px) {
+  .adalab-text {
+    padding-left: 100px;
+    padding-right: 100px; }
+
+  #main-header {
+    display: inline-block;
+    width: 100%;
+    padding: 0; }
+
+  .menu-web {
+    display: none; }
+
+  .menu-responsive {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #152844;
+    margin-left: 60%;
+    animation-name: fadeInRight;
+    animation-duration: 2s; }
+
+  .logo-greyhound {
+    display: flex;
+    align-items: center;
+    margin-left: 15px; }
+
+  .responsive {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px; }
+
+  .hero_container {
+    width: 100%; }
+
+  .menu-mobile {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    list-style: none;
+    margin: 10px; }
+
+  .nav-list-mobile {
+    line-height: 30px;
+    color: white;
+    padding: 15px; }
+
+  .btn-menu-mobile {
+    display: block; }
+
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0); }
+    to {
+      opacity: 1;
+      transform: none; } }
   .fundBoxLeft {
     flex-wrap: wrap;
     justify-content: center;

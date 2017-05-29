@@ -12,19 +12,19 @@
   -moz-box-shadow: $shadow;
   box-shadow: $shadow;
 }
-
-.nav{
+.menu-web {
   display: flex;
   list-style: none;
 }
-
+.menu-mobile{
+  display: none;
+}
 .nav-list {
     color: black;
     text-decoration: none;
+    list-style: none;
     margin-left: 15px;
-
 }
-
 .nav-list:hover{
   color: $primary-color;
 }
