@@ -332,8 +332,48 @@ a {
     to {
       opacity: 1;
       -webkit-transform: none;
+<<<<<<< HEAD
               transform: none; } }
   .fundBoxLeft {
+=======
+              transform: none; } } }
+.container-about {
+  margin: 20px 50px 30px; }
+
+.about-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 322px; }
+
+.text-right {
+  margin-left: 200px; }
+
+.about-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  text-align: right;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.text-left {
+  margin-right: 200px; }
+
+.name {
+  margin: 0; }
+
+@media (max-width: 700px) {
+  .about-left {
+>>>>>>> Added sass header 2
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -341,10 +381,17 @@ a {
             justify-content: center;
     text-align: center; }
 
+<<<<<<< HEAD
   .textLeft {
     margin-right: 0px; }
 
   .fundBoxRight {
+=======
+  .text-left {
+    margin-right: 0px; }
+
+  .about-right {
+>>>>>>> Added sass header 2
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -352,9 +399,14 @@ a {
             justify-content: center;
     text-align: center; }
 
+<<<<<<< HEAD
   .textRight {
     margin-left: 0px; } }
 /*fin susana*/
+=======
+  .text-right {
+    margin-left: 0px; } }
+>>>>>>> Added sass header 2
 .footer {
   width: 100%;
   background-color: #152844;
@@ -401,5 +453,4 @@ a {
 
 .hidden {
   display: none; }
-
 /*# sourceMappingURL=index.css.map */
