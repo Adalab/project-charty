@@ -4,7 +4,7 @@
   justify-content: center;
   font-family: 'Playfair Display', serif;
   background-color: #E84542;
-  color: #D2D5D8;
+  color: white;
   margin: 0;
   padding-top: 20px;
   padding-bottom: 20px; }
@@ -76,7 +76,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c1624', end
   margin: 0;
   font-family: 'Playfair Display', serif; }
 
-@media (max-width: 700px) {
+@media (max-width:768px) {
   .fundBoxLeft {
     flex-wrap: wrap;
     justify-content: center;
