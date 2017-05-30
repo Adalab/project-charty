@@ -104,6 +104,15 @@ padding: 50px;
 .name{
   margin: 0;
 }
+@media (min-width: 768px){
+  .btn-menu-mobile{
+    display: none;
+  }
+
+  .menu-mobile.active{
+    display: none;
+  }
+}
 
 @media (max-width:768px){
 
@@ -120,14 +129,10 @@ padding: 50px;
    .menu-web {
        display: none;
    }
-   .menu-responsive {
-       display: flex;
-       justify-content: flex-end;
-       background-color: $primary-color;
-       margin-left: 60%;
-       animation-name: fadeInRight;
-       animation-duration: 2s;
-   }
+  //  .menu-responsive {
+  //      display: flex;
+  //      justify-content: flex-end;
+  //  }
    .logo-greyhound {
        display: flex;
        align-items: center;
@@ -148,6 +153,12 @@ padding: 50px;
        flex-direction: column;
        list-style: none;
        margin: 10px;
+       display: none;
+      //  opacity: 0;
+       animation-name: fadeInRight;
+       animation-duration: 2s;
+       background-color: $primary-color;
+       margin-left: 60%;
    }
    .nav-list-mobile {
        line-height: 30px;
