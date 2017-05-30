@@ -110,7 +110,7 @@ a {
   background-color: grey; }
 
 .heroImage {
-  background-image: url("/img/path.jpg");
+  background-image: url("../img/path.jpg");
   width: 100%;
   height: 950px;
   background-position: center;
