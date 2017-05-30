@@ -4,4 +4,4 @@ function appearMenu(){
 }
 
 var menubtn = document.querySelector(".btn-menu-mobile");
- menubtn.addEventListener("click", appearMenu); 
+ menubtn.addEventListener("click", appearMenu);
