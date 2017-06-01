@@ -207,6 +207,7 @@ header {
 
 .txtFondo {
   margin: 20px; }
+<<<<<<< HEAD
 
 .imgFondo {
   height: 431px;
@@ -214,6 +215,15 @@ header {
   width: 366px;
   margin-right: 20px; }
 
+=======
+
+.imgFondo {
+  height: 431px;
+  float: left;
+  width: 366px;
+  margin-right: 20px; }
+
+>>>>>>> 1fb58b4384badfcaf3f5f99d2cad1ba194336b77
 .titleLine {
   background-color: #E84542;
   margin: 0;
@@ -454,6 +464,7 @@ header {
   .name {
     margin: 0;
     font-family: 'Playfair Display', serif; } }
+<<<<<<< HEAD
 .footer {
   background-color: #E84542;
   justify-content: center;
@@ -475,5 +486,7 @@ header {
 .icontwitter {
   width: 40px;
   margin: 15px; }
+=======
+>>>>>>> 1fb58b4384badfcaf3f5f99d2cad1ba194336b77
 
 /*# sourceMappingURL=index.css.map */
