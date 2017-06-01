@@ -454,5 +454,26 @@ header {
   .name {
     margin: 0;
     font-family: 'Playfair Display', serif; } }
+.footer {
+  background-color: #E84542;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px; }
+
+.up {
+  background-color: #E84542; }
+
+.iconMedialab {
+  width: 100px;
+  margin: 15px; }
+
+.info {
+  justify-content: space-around;
+  align-items: center;
+  margin: -10px; }
+
+.icontwitter {
+  width: 40px;
+  margin: 15px; }
 
 /*# sourceMappingURL=index.css.map */
