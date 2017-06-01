@@ -5,11 +5,13 @@
 
     <meta charset="utf-8">
     <title>Charty</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="icon" type="image/png" href="img/greyhound.png">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/index.css">
+
 
   </head>
 
@@ -27,20 +29,20 @@
        <img src="img/menu.png" alt="Boton de menu">
      </button>
        </div>
-       <div class="menu-responsive">
+       <!-- <div class="menu-responsive"> -->
            <ul class="menu-mobile">
                <li><a class="nav-list-mobile" href="#">Inicio</a></li>
-               <li><a class="nav-list-mobile" href="#adalab-nav">Adalab</a></li>
-               <li><a class="nav-list-mobile" href="#about-nav">About</a></li>
-               <li><a class="nav-list-mobile" href="#+info-nav">+Info</a></li>
+               <li><a class="nav-list-mobile" href="#MediaLab-nav">MediaLab</a></li>
+               <li><a class="nav-list-mobile" href="#Fondos-europeos-nav">Fondos Europeos</a></li>
+               <li><a class="nav-list-mobile" href="#Colaboradores-nav">Colaboradores</a></li>
            </ul>
-       </div>
+       <!-- </div> -->
        <nav>
            <ul class="menu-web">
                <li><a class="nav-list" href="#">Inicio</a></li>
-               <li><a class="nav-list" href="#adalab-nav">Adalab</a></li>
-               <li><a class="nav-list" href="#about-nav">About</a></li>
-               <li><a class="nav-list" href="#+info-nav">+Info</a></li>
+               <li><a class="nav-list" href="#MediaLab-nav">MediaLab</a></li>
+               <li><a class="nav-list" href="#Fondos-europeos-nav">Fondos Europeos</a></li>
+               <li><a class="nav-list" href="#Colaboradores-nav">Colaboradores</a></li>
            </ul>
        </nav>
 
@@ -50,19 +52,20 @@
         <div class="heroText">
           <h1 class="titleHero" >Los fondos europeos en la España vacía</h1>
           <p class="textHero">Proyecto realizado en el V Taller de Periodismo de Datos de Medialab Prado</p>
-          <button class="buttonHero"><a class="buttonHero" href="#">Sobre el proyecto</a></button>
+
+<input class="buttonHero" type="submit" onClick="window.location.href =''" name="buttonHero" value="Sobre el proyecto">
         </div>
     </div>
 
 
-    <div id="adalab-nav" class="adalab">
+    <div id="MediaLab-nav" class="MediaLab">
 
       <a target="_blank" href="http://medialab-prado.es/">
         <img class="logo" src="img/logo-medialab-prado.png" alt="Logo de Medialab Prado" width="300px">
       </a>
 
 
-      <div class="adalab-text">
+      <div class="MediaLab-text">
         <p>
           Durante varias décadas, España ha recibido grandes cantidades de fondos
           europeos destinados a financiar diferentes objetivos.
@@ -87,7 +90,7 @@
 
 
 
-    <h1 id="about-nav" class="titleFund">Fondos Europeos</h1>
+    <h1 id="Fondos-europeos-nav" class="titleFund">Fondos Europeos</h1>
 
     <div class="containerFondos">
 
@@ -103,11 +106,11 @@
 
             <h2 class="name">Fondo Social Europeo</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Esta subvención europea es administrada en España por la UAFSE (Unidad Administradora de Fondos Sociales Europeos) ubicada en el Ministerio de Empleo y Seguridad Social. Por ello, recogeremos los datos del portal de este ministerio que se presenta ordenada por comunidades autónomas, lo que nos facilita adquirir los datos de las inversiones en las 3 zonas a tratar.
             </p>
-            <button class = "btnInfo" type ="button" name="masInfo">
-              <a  target="_blank" href="fondo1.html">+ info</a>
-            </button>
+
+            <input class="btnInfo" type="submit" onClick="window.location.href ='fondo1.html'" name="btnInfo" value="+info">
+
 
           </div>
 
@@ -127,12 +130,11 @@
 
             <h2 class="name">Fondo Europeo de Desarrollo Regional</h2>
 
-            <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p>Para situar la distribución de estos fondos, acudiremos al Ministerio de Agricultura y Pesca, Alimentación y Hacienda. En su portal podemos encontrar los informes donde conocer las zonas beneficiadas por la subvención en las regiones despobladas. Fondos FEDER: En este caso, debemos conocer los 2 programas que llevan a cabo estos fondos puesto que para la investigación ambos son relevantes.
             </p>
-            <button class ="btnInfo" type ="button" name="masInfo">
-              <a  target="_blank" href="fondo2.html">+ info</a>
-            </button>
+            <input class="btnInfo" type="submit" onClick="window.location.href ='fondo2.html'" name="btnInfo" value="+info">
+
+
           </div>
 
 
@@ -152,12 +154,11 @@
 
             <h2 class="name">Fondo Europeo Agricola de Desarrollo Rural</h2>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          La Política Agrícola Común también dota de ayudas a las zonas en riesgo de despoblación, es por ello que deberemos conocer su estructura y localizar el gasto. Estos se encuentran en la página del Ministerio de Agricultura y Pesca, Alimentación y Hacienda. Descripción de Subvenciones: Los Fondos FEDER es un programa de subvenciones que pretende corregir los desequilibrios demográficos.
             </p>
+            <input class="btnInfo" type="submit" onClick="window.location.href ='fondo3.html'" name="btnInfo" value="+info">
 
-            <button class = "btnInfo" type ="button" name="masInfo">
-              <a  target="_blank" href="fondo3.html">+ info</a>
-            </button>
+
 
           </div>
 
@@ -236,7 +237,7 @@
     </footer>
 
 
-
+    <script src="js/main.js" charset="utf-8"></script>
   </body>
 
 </html>

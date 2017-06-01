@@ -17,23 +17,36 @@
   color: white;
   font-size: 40px; }
 
+  .titleHero {
+    font-size: 50px;
+  }
+
+.textHero {
+  font-size: 25px; }
+
+
 .buttonHero, .buttonHero a {
   color: white;
   background-color: #E84542;
   border-radius: 5px;
-  font-size: 35px;
+  font-size: 25px;
   padding: 15px;
   color: white; }
 
 .buttonHero:hover {
   background-color: #152875; }
 
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width:700px) {
   .buttonHero {
-    font-size: 25px; }
+    font-size: 35px; }
 
   .textHero {
-    font-size: 30px; }
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
 
   .titleHero {
-    font-size: 50px; } }
+    font-size: 70px; }
+  }
