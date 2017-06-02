@@ -60,7 +60,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c1624', end
 .btnInfo {
   width: 100px;
   height: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: $default-font-family;
   font-size: 10px;
   background-color: #E84542;
   color: #D2D5D8;
@@ -103,7 +103,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c1624', end
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c1624', endColorstr='#152844', GradientType=0 );
    }
   .textLeft {
-    font-family: 'Raleway', sans-serif;
+    font-family: $default-font-family;
     color: white;
     display: flex;
     flex-direction: column;
@@ -128,7 +128,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c1624', end
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c1624', endColorstr='#152844', GradientType=0 );
   }
   .textRight {
-    font-family: 'Raleway', sans-serif;
+    font-family: $default-font-family;
     color: white;
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c1624', end
   .btnInfo {
     width: 150px;
     height: 30px;
-    font-family: 'Raleway', sans-serif;
+    font-family: $default-font-family;
     font-size: 20px;
     background-color: #E84542;
     color: #D2D5D8;
